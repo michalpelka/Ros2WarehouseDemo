@@ -1,0 +1,1707 @@
+{
+    "ContainerEntity": {
+        "Id": "Entity_[1146574390643]",
+        "Name": "Level",
+        "Components": {
+            "Component_[10641544592923449938]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10641544592923449938
+            },
+            "Component_[12039882709170782873]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12039882709170782873
+            },
+            "Component_[12265484671603697631]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12265484671603697631
+            },
+            "Component_[14126657869720434043]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14126657869720434043,
+                "Child Entity Order": [
+                    "Entity_[1176639161715]",
+                    "Entity_[372303138255]",
+                    "Entity_[519414066362]",
+                    "Entity_[1440675936341]"
+                ]
+            },
+            "Component_[15230859088967841193]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15230859088967841193,
+                "Parent Entity": ""
+            },
+            "Component_[16239496886950819870]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16239496886950819870
+            },
+            "Component_[5688118765544765547]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5688118765544765547
+            },
+            "Component_[6545738857812235305]": {
+                "$type": "SelectionComponent",
+                "Id": 6545738857812235305
+            },
+            "Component_[7247035804068349658]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7247035804068349658
+            },
+            "Component_[9307224322037797205]": {
+                "$type": "EditorLockComponent",
+                "Id": 9307224322037797205
+            },
+            "Component_[9562516168917670048]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9562516168917670048
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1155164325235]": {
+            "Id": "Entity_[1155164325235]",
+            "Name": "Sun",
+            "Components": {
+                "Component_[10440557478882592717]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10440557478882592717
+                },
+                "Component_[13620450453324765907]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13620450453324765907
+                },
+                "Component_[2134313378593666258]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2134313378593666258
+                },
+                "Component_[234010807770404186]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 234010807770404186
+                },
+                "Component_[2970359110423865725]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2970359110423865725
+                },
+                "Component_[3722854130373041803]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3722854130373041803
+                },
+                "Component_[5992533738676323195]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5992533738676323195
+                },
+                "Component_[7378860763541895402]": {
+                    "$type": "AZ::Render::EditorDirectionalLightComponent",
+                    "Id": 7378860763541895402,
+                    "Controller": {
+                        "Configuration": {
+                            "Intensity": 1.0,
+                            "CameraEntityId": "",
+                            "ShadowFilterMethod": 1
+                        }
+                    }
+                },
+                "Component_[7892834440890947578]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7892834440890947578,
+                    "Parent Entity": "Entity_[1176639161715]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            13.487043380737305
+                        ],
+                        "Rotate": [
+                            -76.13099670410156,
+                            -0.847000002861023,
+                            -15.8100004196167
+                        ]
+                    }
+                },
+                "Component_[8599729549570828259]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8599729549570828259
+                },
+                "Component_[952797371922080273]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 952797371922080273
+                }
+            }
+        },
+        "Entity_[1163754259827]": {
+            "Id": "Entity_[1163754259827]",
+            "Name": "Camera",
+            "Components": {
+                "Component_[11895140916889160460]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11895140916889160460
+                },
+                "Component_[16880285896855930892]": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 16880285896855930892,
+                    "Controller": {
+                        "Configuration": {
+                            "Field of View": 55.0,
+                            "EditorEntityId": 12757057245167793579
+                        }
+                    }
+                },
+                "Component_[17187464423780271193]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17187464423780271193
+                },
+                "Component_[17495696818315413311]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17495696818315413311
+                },
+                "Component_[18086214374043522055]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18086214374043522055,
+                    "Parent Entity": "Entity_[1176639161715]",
+                    "Transform Data": {
+                        "Translate": [
+                            6.497495651245117,
+                            2.043245315551758,
+                            1.679794192314148
+                        ],
+                        "Rotate": [
+                            10.202579498291016,
+                            -14.839097023010254,
+                            126.83428192138672
+                        ]
+                    }
+                },
+                "Component_[18387556550380114975]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18387556550380114975
+                },
+                "Component_[2654521436129313160]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2654521436129313160
+                },
+                "Component_[5265045084611556958]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5265045084611556958
+                },
+                "Component_[7169798125182238623]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7169798125182238623
+                },
+                "Component_[7255796294953281766]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 7255796294953281766,
+                    "m_template": {
+                        "$type": "FlyCameraInputComponent"
+                    }
+                },
+                "Component_[8866210352157164042]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8866210352157164042
+                },
+                "Component_[9129253381063760879]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9129253381063760879
+                }
+            }
+        },
+        "Entity_[1176639161715]": {
+            "Id": "Entity_[1176639161715]",
+            "Name": "Atom Default Environment",
+            "Components": {
+                "Component_[10757302973393310045]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10757302973393310045,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[14505817420424255464]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14505817420424255464,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10757302973393310045
+                        }
+                    ]
+                },
+                "Component_[14988041764659020032]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14988041764659020032
+                },
+                "Component_[15808690248755038124]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15808690248755038124
+                },
+                "Component_[15900837685796817138]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15900837685796817138
+                },
+                "Component_[3298767348226484884]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3298767348226484884
+                },
+                "Component_[4076975109609220594]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4076975109609220594
+                },
+                "Component_[5679760548946028854]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5679760548946028854
+                },
+                "Component_[5855590796136709437]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5855590796136709437,
+                    "Child Entity Order": [
+                        "Entity_[1155164325235]",
+                        "Entity_[1180934129011]",
+                        "Entity_[1163754259827]"
+                    ]
+                },
+                "Component_[9277695270015777859]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9277695270015777859
+                }
+            }
+        },
+        "Entity_[1180934129011]": {
+            "Id": "Entity_[1180934129011]",
+            "Name": "Global Sky",
+            "Components": {
+                "Component_[11231930600558681245]": {
+                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                    "Id": 11231930600558681245,
+                    "Controller": {
+                        "Configuration": {
+                            "CubemapAsset": {
+                                "assetId": {
+                                    "guid": "{8C964DCA-0737-5EA1-B333-EF1D2F281431}",
+                                    "subId": 2000
+                                },
+                                "assetHint": "lightingpresets/lowcontrast/kloetzle_blei_4k_iblskyboxcm_iblspecular.exr.streamingimage"
+                            }
+                        }
+                    }
+                },
+                "Component_[11980494120202836095]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11980494120202836095
+                },
+                "Component_[1428633914413949476]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1428633914413949476
+                },
+                "Component_[14936200426671614999]": {
+                    "$type": "AZ::Render::EditorImageBasedLightComponent",
+                    "Id": 14936200426671614999,
+                    "Controller": {
+                        "Configuration": {
+                            "diffuseImageAsset": {
+                                "assetId": {
+                                    "guid": "{8C964DCA-0737-5EA1-B333-EF1D2F281431}",
+                                    "subId": 3000
+                                },
+                                "assetHint": "lightingpresets/lowcontrast/kloetzle_blei_4k_iblskyboxcm_ibldiffuse.exr.streamingimage"
+                            },
+                            "specularImageAsset": {
+                                "assetId": {
+                                    "guid": "{8C964DCA-0737-5EA1-B333-EF1D2F281431}",
+                                    "subId": 2000
+                                },
+                                "assetHint": "lightingpresets/lowcontrast/kloetzle_blei_4k_iblskyboxcm_iblspecular.exr.streamingimage"
+                            }
+                        }
+                    }
+                },
+                "Component_[14994774102579326069]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14994774102579326069
+                },
+                "Component_[15417479889044493340]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15417479889044493340
+                },
+                "Component_[15826613364991382688]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15826613364991382688
+                },
+                "Component_[1665003113283562343]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1665003113283562343
+                },
+                "Component_[3704934735944502280]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3704934735944502280
+                },
+                "Component_[5698542331457326479]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5698542331457326479
+                },
+                "Component_[6644513399057217122]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6644513399057217122,
+                    "Parent Entity": "Entity_[1176639161715]"
+                },
+                "Component_[931091830724002070]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 931091830724002070
+                }
+            }
+        },
+        "Entity_[1435224131443]": {
+            "Id": "Entity_[1435224131443]",
+            "Name": "Collider",
+            "Components": {
+                "Component_[10478840556995153977]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10478840556995153977
+                },
+                "Component_[12501069748207492139]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 12501069748207492139,
+                    "Configuration": {
+                        "entityId": "",
+                        "CCD Enabled": true,
+                        "Mass": 22.5,
+                        "Inertia tensor": {
+                            "roll": 0.0,
+                            "pitch": 0.0,
+                            "yaw": 0.0,
+                            "scale": 3.497267484664917
+                        }
+                    }
+                },
+                "Component_[12855445126082967885]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12855445126082967885
+                },
+                "Component_[13337856510846828128]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13337856510846828128
+                },
+                "Component_[14265473558218510002]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14265473558218510002
+                },
+                "Component_[15044025865424757640]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15044025865424757640,
+                    "Parent Entity": "Entity_[372303138255]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.11780649423599243
+                        ]
+                    }
+                },
+                "Component_[16509035050009975400]": {
+                    "$type": "EditorFixedJointComponent",
+                    "Id": 16509035050009975400,
+                    "Configuration": {
+                        "Parent Entity": "Entity_[372303138255]",
+                        "Child Entity": "Entity_[1435224131443]"
+                    }
+                },
+                "Component_[17675931138801985552]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17675931138801985552
+                },
+                "Component_[18055985999537119427]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18055985999537119427
+                },
+                "Component_[3904401916823381009]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3904401916823381009
+                },
+                "Component_[4930187594690636534]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4930187594690636534
+                },
+                "Component_[8956752390969248569]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8956752390969248569
+                },
+                "Component_[984741541071017039]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 984741541071017039,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 858390244
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                        "subId": 858390244
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/_primitives/_box_1x1.pxmesh"
+                                },
+                                "AssetScale": [
+                                    0.30000001192092896,
+                                    0.25,
+                                    0.30000001192092896
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[1440675936341]": {
+            "Id": "Entity_[1440675936341]",
+            "Name": "Warehouse",
+            "Components": {
+                "Component_[10479506759139807158]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10479506759139807158
+                },
+                "Component_[12143950287895240516]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12143950287895240516
+                },
+                "Component_[14319359143431772353]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14319359143431772353,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1480482908
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0369B5C4-ABF4-57D7-AC72-9F2B25E593C4}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2315760051
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0BB73175-96B4-504A-B862-A7D49082E65B}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4134065892
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{92F687EE-F2B5-5A5D-BF1E-797699B968AE}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2397339024029576814]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2397339024029576814
+                },
+                "Component_[3026774238221914041]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 3026774238221914041,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{AE4F6C69-A266-57D6-BFAD-3E73DC4B6FD8}",
+                                    "subId": 2090086939
+                                }
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{AE4F6C69-A266-57D6-BFAD-3E73DC4B6FD8}",
+                                        "subId": 2090086939
+                                    },
+                                    "loadBehavior": "QueueLoad"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3268231762638210141]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3268231762638210141
+                },
+                "Component_[3678973271679163674]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3678973271679163674,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[4824491955447122127]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4824491955447122127,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{AE4F6C69-A266-57D6-BFAD-3E73DC4B6FD8}",
+                                    "subId": 280202236
+                                },
+                                "assetHint": "assets/o3descene/warehouse.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5574677669140571064]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5574677669140571064
+                },
+                "Component_[5616857707572844122]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5616857707572844122
+                },
+                "Component_[6531790790423077061]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6531790790423077061,
+                    "Child Entity Order": [
+                        "Entity_[1435224131443]"
+                    ]
+                },
+                "Component_[6696283353552921070]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6696283353552921070
+                },
+                "Component_[9934575964408519307]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9934575964408519307
+                }
+            }
+        },
+        "Entity_[372303138255]": {
+            "Id": "Entity_[372303138255]",
+            "Name": "Robot",
+            "Components": {
+                "Component_[10128788084311741573]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 10128788084311741573,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{3A4500F3-A650-5CC5-A6AE-72300CC963A5}"
+                            },
+                            "assetHint": "assets/events/robotmovementinput.inputbindings"
+                        }
+                    }
+                },
+                "Component_[11315452240909602350]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11315452240909602350
+                },
+                "Component_[11864781117211182598]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11864781117211182598
+                },
+                "Component_[12194302030282512361]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12194302030282512361
+                },
+                "Component_[12399796004250012151]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 12399796004250012151,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[1544527822135395326]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1544527822135395326
+                },
+                "Component_[1891566439227802617]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1891566439227802617,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            3.148590564727783,
+                            0.5440412759780884,
+                            0.6719245314598083
+                        ]
+                    }
+                },
+                "Component_[2252255488684264259]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2252255488684264259
+                },
+                "Component_[3535710175048715255]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3535710175048715255
+                },
+                "Component_[3665142490224767418]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3665142490224767418,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{9B9775C1-6415-5A27-A7E7-4634ABB078ED}",
+                                    "subId": 271285988
+                                },
+                                "assetHint": "assets/o3descene/robot.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4531367159171096772]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4531367159171096772
+                },
+                "Component_[4895172860961119090]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4895172860961119090,
+                    "Child Entity Order": [
+                        "Entity_[1435224131443]"
+                    ]
+                },
+                "Component_[515315448682290260]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 515315448682290260
+                },
+                "Component_[5588013979175793432]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5588013979175793432
+                }
+            }
+        },
+        "Entity_[519414066362]": {
+            "Id": "Entity_[519414066362]",
+            "Name": "Lights",
+            "Components": {
+                "Component_[11320741942673232741]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11320741942673232741
+                },
+                "Component_[11588289585482428385]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11588289585482428385
+                },
+                "Component_[12389910817956561319]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12389910817956561319
+                },
+                "Component_[16635932791515173881]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16635932791515173881
+                },
+                "Component_[17032282605916760323]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17032282605916760323
+                },
+                "Component_[17893421170630118418]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17893421170630118418
+                },
+                "Component_[2206096786841387542]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2206096786841387542,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            2.384185791015625e-7
+                        ]
+                    }
+                },
+                "Component_[5993471577140987807]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5993471577140987807,
+                    "Child Entity Order": [
+                        "Entity_[617116274127]",
+                        "Entity_[523709033658]",
+                        "Entity_[536593935546]",
+                        "Entity_[528004000954]",
+                        "Entity_[532298968250]",
+                        "Entity_[545183870138]",
+                        "Entity_[540888902842]",
+                        "Entity_[549478837434]",
+                        "Entity_[553773804730]",
+                        "Entity_[558068772026]"
+                    ]
+                },
+                "Component_[7636887579920822747]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7636887579920822747
+                },
+                "Component_[7902499317472096621]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7902499317472096621
+                }
+            }
+        },
+        "Entity_[523709033658]": {
+            "Id": "Entity_[523709033658]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[17953676900271323327]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 17953676900271323327,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.8450055122375488,
+                            1.2667384147644043,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[528004000954]": {
+            "Id": "Entity_[528004000954]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.8450055122375488,
+                            -2.7739076614379883,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[532298968250]": {
+            "Id": "Entity_[532298968250]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.8450055122375488,
+                            -4.77974271774292,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[536593935546]": {
+            "Id": "Entity_[536593935546]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.8450055122375488,
+                            3.3128738403320313,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[540888902842]": {
+            "Id": "Entity_[540888902842]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.597540378570557,
+                            -0.7468643188476563,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[545183870138]": {
+            "Id": "Entity_[545183870138]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.597540378570557,
+                            3.3128738403320313,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[549478837434]": {
+            "Id": "Entity_[549478837434]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.597540378570557,
+                            1.2667384147644043,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[553773804730]": {
+            "Id": "Entity_[553773804730]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.597540378570557,
+                            -2.7739076614379883,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[558068772026]": {
+            "Id": "Entity_[558068772026]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[15940564047808950270]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 15940564047808950270,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.597540378570557,
+                            -4.77974271774292,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        },
+        "Entity_[617116274127]": {
+            "Id": "Entity_[617116274127]",
+            "Name": "light",
+            "Components": {
+                "Component_[11605386060063786315]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 11605386060063786315,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 200.0,
+                            "AttenuationRadius": 44.72135925292969,
+                            "EnableShutters": true,
+                            "OuterShutterAngleDegrees": 82.83999633789063,
+                            "Enable Shadow": true,
+                            "Shadow Bias": 0.20000000298023224,
+                            "Normal Shadow Bias": 0.20000000298023224,
+                            "Shadowmap Max Size": "Size1024",
+                            "Shadow Filter Method": 3,
+                            "Filtering Sample Count": 4,
+                            "Esm Exponent": 50.0
+                        }
+                    }
+                },
+                "Component_[12794923432889720181]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12794923432889720181
+                },
+                "Component_[16554183544557749438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16554183544557749438
+                },
+                "Component_[2365482070157460576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2365482070157460576
+                },
+                "Component_[3491631335378835268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3491631335378835268,
+                    "Parent Entity": "Entity_[519414066362]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.8450055122375488,
+                            -0.7468643188476563,
+                            2.331895589828491
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5249732731859413085]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5249732731859413085
+                },
+                "Component_[7310710132286711152]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 7310710132286711152,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[7584798249370937929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7584798249370937929
+                },
+                "Component_[7713595944153741600]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7713595944153741600
+                },
+                "Component_[8478810405342778020]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8478810405342778020
+                },
+                "Component_[859002271540349752]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 859002271540349752
+                },
+                "Component_[9663206437272567004]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9663206437272567004
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "project_name": "Ros2WarehouseDemo",
+    "project_id": "{90b222eb-9029-41d5-a5da-3972fffafbb7}",
+    "origin": "The primary repo for Ros2WarehouseDemo goes here: i.e. http://www.mydomain.com",
+    "license": "What license Ros2WarehouseDemo uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Ros2WarehouseDemo",
+    "summary": "A short description of Ros2WarehouseDemo.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Ros2WarehouseDemo"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "Ros2WarehouseDemo",
+    "gem_names": [
+        "ROS2"
+    ]
+}

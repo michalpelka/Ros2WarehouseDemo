@@ -158,6 +158,7 @@
                     "m_template": {
                         "$type": "ROS2RobotControlComponent",
                         "ControlConfiguration": {
+                            "Topic": "cmd_vel",
                             "RobotConfiguration": {
                                 "Body": "Entity_[394238657263]",
                                 "Front left wheel": "",
@@ -176,7 +177,7 @@
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
                         },
-                        "Frame Name": "base_footprint"
+                        "Frame Name": "base_link"
                     }
                 },
                 "Component_[1891566439227802617]": {
@@ -298,7 +299,10 @@
                             "Publishers": {
                                 "sensor_msgs::msg::PointCloud2": {
                                     "Type": "sensor_msgs::msg::PointCloud2",
-                                    "Topic": "pc"
+                                    "Topic": "pc",
+                                    "QoS": {
+                                        "Reliability": 1
+                                    }
                                 }
                             }
                         }

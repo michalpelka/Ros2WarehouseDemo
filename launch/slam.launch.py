@@ -13,30 +13,8 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([str(pathlib.Path(
                 get_package_share_directory('slam_toolbox')).joinpath('launch', 'online_async_launch.py'))]),
             launch_arguments = {
-                'use_sim_time': 'False'
+                'slam_params_file': str(pathlib.Path(__file__).parent.absolute().joinpath('config', 'slam_params.yaml'))
             }.items()
-        ),
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='slam',
-            output={
-                'stdout': 'log',
-            },
-            arguments=[
-                '-d', str(pathlib.Path(__file__).parent.absolute().joinpath('config', 'slam.rviz')),
-            ]
-        ),
-        Node(
-            package='rqt_robot_steering',
-            executable='rqt_robot_steering',
-            name='slam',
-            parameters=[{
-               'default_topic': 'o3de_robot_control' 
-            }],
-            arguments=[
-                '--force-discover', '--on-top'
-            ]
         ),
         Node(
             package='pointcloud_to_laserscan',
@@ -44,7 +22,8 @@ def generate_launch_description():
             name='pc_to_laserscan',
             parameters=[{
                 'min_height': 0.2,
-                'max_height': 1.0
+                'max_height': 1.0,
+                'range_min': 0.05
             }],
             remappings=[
                 ('/cloud_in', '/pc'),

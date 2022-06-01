@@ -305,7 +305,8 @@
                                     }
                                 }
                             }
-                        }
+                        },
+                        "selfCollisionEntityId": "Entity_[394238657263]"
                     }
                 },
                 "Component_[17085680925863458488]": {
@@ -334,7 +335,14 @@
                 "Component_[4866639910804050404]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 4866639910804050404,
-                    "Parent Entity": "Entity_[394238657263]"
+                    "Parent Entity": "Entity_[394238657263]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.2535579204559326
+                        ]
+                    }
                 },
                 "Component_[4923171208704782939]": {
                     "$type": "EditorVisibilityComponent",

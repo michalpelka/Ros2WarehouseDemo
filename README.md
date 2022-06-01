@@ -31,6 +31,7 @@ The following steps will assume the following:
 sudo apt install ros-${ROS_DISTRO}-slam-toolbox
 sudo apt install ros-${ROS_DISTRO}-navigation2
 sudo apt install ros-${ROS_DISTRO}-nav2-bringup
+sudo apt install ros-${ROS_DISTRO}-pointcloud-to-laserscan
 ```
 
 

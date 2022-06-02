@@ -22,7 +22,7 @@
                     "Entity_[1176639161715]",
                     "Entity_[519414066362]",
                     "Entity_[1440675936341]",
-                    "Instance_[385104886216]/ContainerEntity"
+                    "Instance_[541846189491]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -338,6 +338,8 @@
                     "ColliderConfiguration": {
                         "MaterialSelection": {
                             "MaterialIds": [
+                                {},
+                                {},
                                 {}
                             ]
                         }
@@ -1418,14 +1420,9 @@
         }
     },
     "Instances": {
-        "Instance_[385104886216]": {
+        "Instance_[541846189491]": {
             "Source": "Prefabs/Robot.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Name",
-                    "value": "SimpleRobot"
-                },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Parent Entity",
@@ -1434,22 +1431,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Transform Data/Translate/0",
-                    "value": 5.502740383148193
+                    "value": 1.716881275177002
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Transform Data/Translate/1",
-                    "value": -1.7317054271697998
+                    "value": 0.8863296508789063
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Transform Data/Translate/2",
-                    "value": 0.12378424406051636
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Transform Data/Rotate/2",
-                    "value": 128.1002197265625
+                    "value": -3.5762786865234375e-7
                 }
             ]
         }

@@ -56,7 +56,7 @@
     "Entities": {
         "Entity_[394238657263]": {
             "Id": "Entity_[394238657263]",
-            "Name": "base",
+            "Name": "Robot",
             "Components": {
                 "Component_[10255275203288329637]": {
                     "$type": "EditorColliderComponent",
@@ -276,7 +276,7 @@
         },
         "Entity_[619022704110]": {
             "Id": "Entity_[619022704110]",
-            "Name": "lidar",
+            "Name": "Lidar",
             "Components": {
                 "Component_[11572685227958414430]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -306,7 +306,7 @@
                                 }
                             }
                         },
-                        "selfCollisionEntityId": "Entity_[394238657263]"
+                        "LidarTransparentEntityId": "Entity_[394238657263]"
                     }
                 },
                 "Component_[17085680925863458488]": {
@@ -360,7 +360,7 @@
         },
         "Entity_[851599476385]": {
             "Id": "Entity_[851599476385]",
-            "Name": "Camera",
+            "Name": "FollowCamera",
             "Components": {
                 "Component_[11895140916889160460]": {
                     "$type": "EditorEntityIconComponent",
